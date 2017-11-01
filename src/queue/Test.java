@@ -50,7 +50,6 @@ public class Test {
 		queue.add("1");
 		queue.put("2");
 		queue.offer("3");
-		
 		String poll = queue.poll();
 		
 		String take = queue.take();
