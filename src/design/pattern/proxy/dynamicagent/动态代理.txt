@@ -1,0 +1,1 @@
+动态代理需实现接口InvocationHandler
