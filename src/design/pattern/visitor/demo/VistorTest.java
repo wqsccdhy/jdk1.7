@@ -37,13 +37,19 @@ public class VistorTest {
 		list.add(commonEmployee1);
 		list.add(commonEmployee2);
 
-		IVistor vistor = new VistorImpl();
+		IShowVisotor showVistor = new ShowVistorImpl();
+		ITotalVisitor totalVistor = new TotalVisitorImpl();
 		for (Employer employer : list) {
-			employer.accept(vistor);
+			employer.accept(showVistor);
+			employer.accept(totalVistor);
 		}
-		int allSalary = vistor.getAllSalary();
+
+		String report = showVistor.report();
+		System.out.println(report);
+
+		int allSalary = totalVistor.getAllSalary();
 		System.out.println("工作总和为:" + allSalary);
-		
+
 	}
 
 }

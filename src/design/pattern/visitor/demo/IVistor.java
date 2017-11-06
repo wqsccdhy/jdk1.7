@@ -6,6 +6,5 @@ public interface IVistor {
 	
 	public void visit(CommonEmployee commonEmployee);
 	
-	public int getAllSalary();
 
 }
