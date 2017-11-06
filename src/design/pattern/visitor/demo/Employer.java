@@ -1,4 +1,4 @@
-package design.pattern.visitor.difinition;
+package design.pattern.visitor.demo;
 
 public abstract class Employer {
 	
