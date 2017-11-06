@@ -18,10 +18,4 @@ public class CommonEmployee extends Employer {
 		this.job = job;
 	}
 
-	@Override
-	public String getSelfInfo() {
-		String info = "工作:" + this.job + "\t";
-		return info;
-	}
-
 }

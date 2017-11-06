@@ -37,7 +37,7 @@ public class VistorTest {
 		list.add(commonEmployee1);
 		list.add(commonEmployee2);
 
-		IShowVisotor showVistor = new ShowVistorImpl();
+		AbsShowVisotor showVistor = new ShowVistorImpl();
 		ITotalVisitor totalVistor = new TotalVisitorImpl();
 		for (Employer employer : list) {
 			employer.accept(showVistor);

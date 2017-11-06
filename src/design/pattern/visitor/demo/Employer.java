@@ -32,19 +32,6 @@ public abstract class Employer implements IEmployer {
 		this.salarey = salarey;
 	}
 
-	@Override
-	public String getInfo() {
-		String info = this.getBaseInfo() + this.getSelfInfo();
-		return info;
-	}
-
-	@Override
-	public String getBaseInfo() {
-		String info = "姓名:" + this.name + "\t";
-		info = info + "性别:" + this.sex + "\t";
-		info = info + "薪水:" + this.salarey + "\t\t";
-		return info;
-	}
 
 	public abstract void accept(IVistor vistor);
 

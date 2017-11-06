@@ -17,10 +17,6 @@ public class Manager extends Employer {
 		this.performance = performance;
 	}
 
-	@Override
-	public String getSelfInfo() {
-		String info = "业绩:" + this.performance + "\t";
-		return info;
-	}
+	
 
 }
