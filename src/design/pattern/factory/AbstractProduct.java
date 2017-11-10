@@ -4,7 +4,7 @@ package design.pattern.factory;
  * @author Administrator
  *
  */
-public abstract class AbstractProduct implements Product {
+public abstract class AbstractProduct implements IProduct {
 
 	@Override
 	public void method1() {

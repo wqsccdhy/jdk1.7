@@ -1,6 +1,6 @@
 package design.pattern.factory;
 
-public interface Product {
+public interface IProduct {
 	
 	void method1();
 
