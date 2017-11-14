@@ -1,7 +1,5 @@
 package design.pattern.proxy.force;
 
-import java.lang.reflect.Proxy;
-
 import design.pattern.proxy.common.AbstractGamePlayer;
 
 public class ForceProxyTest {
