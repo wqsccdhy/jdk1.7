@@ -8,8 +8,8 @@ public class HighSchoolDecorator extends Decortor {
 
 	@Override
 	public void report() {
-		this.reportHighScore();
 		super.report();
+		this.reportHighScore();
 	}
 
 	private void reportHighScore() {

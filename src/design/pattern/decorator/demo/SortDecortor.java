@@ -9,8 +9,8 @@ public class SortDecortor extends Decortor {
 	
 	@Override
 	public void report() {
-		this.sortReport();
 		super.report();
+		this.sortReport();
 	}
 	
 	private void sortReport(){
